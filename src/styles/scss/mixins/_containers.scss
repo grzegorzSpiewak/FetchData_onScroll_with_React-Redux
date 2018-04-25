@@ -1,0 +1,8 @@
+@mixin page {
+  width: 100%;
+  max-width: $screen-extra-large;
+  margin: 0 auto;
+  min-height: 100vh;
+  transition: all .7 ease-in;
+  @include centered;
+}

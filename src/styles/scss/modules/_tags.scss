@@ -1,0 +1,30 @@
+body {
+  font-family: $main-font;
+  background: $body-background;
+  position: relative;
+  color: $font-color;
+}
+
+h1 {
+
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: 300;
+  line-height: 1.2em;
+  padding: 1em;
+  @media (min-width: $screen-small) {
+    font-size: 1em;
+  }
+}
+
+button {
+  @include btn;
+}
+
+button:hover {
+  @include btn-hover;
+}

@@ -1,0 +1,7 @@
+#details {
+  @include page;
+  @media (min-width: $screen-small) {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

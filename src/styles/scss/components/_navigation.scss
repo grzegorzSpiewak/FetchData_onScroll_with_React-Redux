@@ -1,0 +1,19 @@
+.nav {
+  padding: 0;
+  margin: 0;
+  &__list {
+    @include list;
+    &__item {
+      padding: 1em;
+      text-align: center;
+      text-decoration: none;
+      color: $dark-background;
+      &:hover {
+        cursor: pointer;
+      }
+      &__icon {
+        font-size: 5em;
+      }
+    }
+  }
+}

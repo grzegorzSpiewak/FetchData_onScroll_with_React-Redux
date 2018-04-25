@@ -1,0 +1,21 @@
+@mixin btn {
+  border: 1px solid $border-color;
+  background-color: $dark-background;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 200;
+  padding: 0.5em 3em 0.5em 3em;
+  font-size: 1.2em;
+  outline: none;
+  margin: 1em 0 1em 0;
+  color: $font-color;
+  border-radius: $radius;
+}
+
+@mixin btn-hover {
+  background: $accent;
+  border: 1px solid $accent;
+  color: $border-color;
+  transition: .6s ease;
+}

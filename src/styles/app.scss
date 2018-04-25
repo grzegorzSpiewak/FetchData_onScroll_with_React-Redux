@@ -1,0 +1,38 @@
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+@import "scss/mixins/flex";
+@import "scss/mixins/btn";
+@import "scss/mixins/containers";
+//----------------------------------*\
+// BASE MODULES
+//----------------------------------*/
+
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+@import "scss/modules/normalize";
+@import "scss/modules/variables";
+@import "scss/modules/tags";
+//----------------------------------*\
+// Components
+//----------------------------------*/
+@import "scss/components/beersList";
+@import "scss/components/beersLabel";
+@import "scss/components/beerDetails";
+@import "scss/components/footer";
+@import "scss/components/header";
+@import "scss/components/navigation";
+@import "scss/components/spinner";
+@import "scss/components/logo";
+//----------------------------------*\
+// Containers
+//----------------------------------*/
+@import "scss/containers/home";
+@import "scss/containers/main";
+@import "scss/containers/details";
+//----------------------------------*\
+// Css animations
+//----------------------------------*/
+@import "scss/animations/pageTransition";
+@import "scss/animations/fadeList";

@@ -1,0 +1,14 @@
+.beers {
+  text-align: center;
+  width: 100%;
+  &__list {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    @media (min-width: $screen-small) {
+      @include list;
+      flex-wrap: wrap;
+    }
+  }
+}

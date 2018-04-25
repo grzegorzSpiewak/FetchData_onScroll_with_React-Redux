@@ -1,0 +1,13 @@
+.logo {
+  background-color: $dark-background;
+  padding: 1em;
+  border-radius: $radius;
+  &__name {
+    font-size: 3em;
+    text-transform: uppercase;
+    &--yellow {
+      color: $accent;
+    }
+
+  }
+}
